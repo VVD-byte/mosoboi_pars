@@ -10,7 +10,7 @@ from aiogram.types import ReplyKeyboardRemove, \
 
 
 
-bot = Bot('1606013749:AAGBHJjf50kAQTH4MeZxXpdzYxrPILpc3c4')
+bot = Bot('')
 loop = asyncio.get_event_loop()
 dp = Dispatcher(bot, loop=loop)
 
